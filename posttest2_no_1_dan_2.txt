@@ -1,0 +1,52 @@
+1.Ubah bahasa Prolog berikut menjadi bahasa natural:
+
+a. orang(dian).
+Jawaban : Dian merupakan orang.
+
+b. mobil(atoz)
+Jawaban : Atoz merupakan merek mobil.
+
+c. suka(dian, atoz)).
+Jawaban : Dian(orang) suka dengan atoz(merek mobil)
+
+d. dijual(atoz).
+Jawaban : Atoz dijual
+
+e. dapat_membeli(X,Y):-
+   orang(X),
+   mobil(Y),
+   suka(X,Y),
+   dijual(Y).
+Jawaban: X dapat membeli Y,jika X merupakan orang,Y merupakan mobil,dengan X suka mobil Y dan Y telah dijual.  
+
+f. suka(_,Apa).
+Jawaban :Setiap orang suka dengan Apa(mobil)?
+
+2.Ubah bahasa natural berikut menjadi bahasa Prolog:
+
+a. Ricky mempunyai hobi bermain catur.
+jawaban : hobi(ricky,catur).
+
+b. Embang orangnya pemalas.
+Jawaban : malas(embang).
+
+c. Yusida seorang vegetarian.
+Jawaban : vegetarian(yusida).
+
+d. Kusdiar pandai bermain gitar.
+Jawaban : pandai(kusdiar,gitar)
+
+e. Mobil yang berwarna merah itu milik Sadek, bermerk BMW.
+Jawaban : merah(bmw,mobil),merk(bmw,sadek)
+
+f. Awan seorang pemain piano, berasal dari Pontianak bersuku Jawa.
+Jawaban : pemain_piano(seorang,awan),suku(pontianak,jawa)
+
+g. Seseorang dikatakan baik jika mempunyai sifat penyayang dan dermawan.
+Jawaban : kata(orang,baik):- penyayang(sifat,dermawan)
+
+h. Seseorang dikatakan pintar jika salah satu dari Matematika atau IPA atau IPS mendapat nilai tinggi.
+Jawaban : kata(orang,pintar) if matematika,ipa,ips(salah_satu,nilai_tinggi)
+
+i. Setiap orang pasti mati.
+Jawaban : orang(tiap,mati).
